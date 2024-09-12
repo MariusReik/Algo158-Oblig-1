@@ -35,7 +35,7 @@ def measure_time(func, *args, repetitions=10):
     return result, average_time
 
 # Test different lengths
-lengths = [5, 10, 20, 25, 30, 50, 100, 1000] 
+lengths = [5, 10, 20, 25, 30, 50, 100, 500] 
 for length in lengths:
     X = "a" * length
     Y = "a" * length
